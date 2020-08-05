@@ -1,0 +1,13 @@
+F:\AeriTech\Project Development\AeriSample\AeriSample\bin\Debug\netcoreapp2.2\appsettings.Development.json
+F:\AeriTech\Project Development\AeriSample\AeriSample\bin\Debug\netcoreapp2.2\appsettings.json
+F:\AeriTech\Project Development\AeriSample\AeriSample\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+F:\AeriTech\Project Development\AeriSample\AeriSample\bin\Debug\netcoreapp2.2\AeriSample.deps.json
+F:\AeriTech\Project Development\AeriSample\AeriSample\bin\Debug\netcoreapp2.2\AeriSample.runtimeconfig.json
+F:\AeriTech\Project Development\AeriSample\AeriSample\bin\Debug\netcoreapp2.2\AeriSample.runtimeconfig.dev.json
+F:\AeriTech\Project Development\AeriSample\AeriSample\bin\Debug\netcoreapp2.2\AeriSample.dll
+F:\AeriTech\Project Development\AeriSample\AeriSample\obj\Debug\netcoreapp2.2\AeriSample.csprojAssemblyReference.cache
+F:\AeriTech\Project Development\AeriSample\AeriSample\obj\Debug\netcoreapp2.2\AeriSample.RazorAssemblyInfo.cache
+F:\AeriTech\Project Development\AeriSample\AeriSample\obj\Debug\netcoreapp2.2\AeriSample.RazorAssemblyInfo.cs
+F:\AeriTech\Project Development\AeriSample\AeriSample\obj\Debug\netcoreapp2.2\AeriSample.AssemblyInfoInputs.cache
+F:\AeriTech\Project Development\AeriSample\AeriSample\obj\Debug\netcoreapp2.2\AeriSample.AssemblyInfo.cs
+F:\AeriTech\Project Development\AeriSample\AeriSample\obj\Debug\netcoreapp2.2\AeriSample.RazorTargetAssemblyInfo.cache

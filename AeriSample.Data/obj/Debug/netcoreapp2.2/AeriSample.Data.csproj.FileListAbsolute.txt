@@ -1,0 +1,10 @@
+F:\AeriTech\Project Development\AeriSample\AeriSample.Data\bin\Debug\netcoreapp2.2\AeriSample.Data.deps.json
+F:\AeriTech\Project Development\AeriSample\AeriSample.Data\bin\Debug\netcoreapp2.2\AeriSample.Data.runtimeconfig.json
+F:\AeriTech\Project Development\AeriSample\AeriSample.Data\bin\Debug\netcoreapp2.2\AeriSample.Data.runtimeconfig.dev.json
+F:\AeriTech\Project Development\AeriSample\AeriSample.Data\bin\Debug\netcoreapp2.2\AeriSample.Data.dll
+F:\AeriTech\Project Development\AeriSample\AeriSample.Data\bin\Debug\netcoreapp2.2\AeriSample.Data.pdb
+F:\AeriTech\Project Development\AeriSample\AeriSample.Data\obj\Debug\netcoreapp2.2\AeriSample.Data.csprojAssemblyReference.cache
+F:\AeriTech\Project Development\AeriSample\AeriSample.Data\obj\Debug\netcoreapp2.2\AeriSample.Data.AssemblyInfoInputs.cache
+F:\AeriTech\Project Development\AeriSample\AeriSample.Data\obj\Debug\netcoreapp2.2\AeriSample.Data.AssemblyInfo.cs
+F:\AeriTech\Project Development\AeriSample\AeriSample.Data\obj\Debug\netcoreapp2.2\AeriSample.Data.dll
+F:\AeriTech\Project Development\AeriSample\AeriSample.Data\obj\Debug\netcoreapp2.2\AeriSample.Data.pdb

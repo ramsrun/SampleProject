@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        Test Data from API
+    </div>   <!--en dof panel-heading -->
+    <div class="panel-body">
+        <table class="table table-bordered" id="Table">
+            <tr>
+                <th>ProductID</th>
+                <th>ProductNumber</th>
+                <th>Name</th>
+                <th>PriceList</th>
+                <th></th>
+            </tr>
+        </table>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:5051/api/Product",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (data) {
+                //alert(JSON.stringify(data));
+                $("#DIV").html('');
+                var DIV = '';
+                $.each(data, function (i, item) {
+                    var rows = "<tr>" +
+                        "<td id='ProductID'>" + item.productID + "</td>" +
+                        "<td id='ProductNumber'>" + item.productNumber + "</td>" +
+                        "<td id='Name'>" + item.name + "</td>" +
+                        "<td id='PriceList'>" + item.priceList + "</td>" +
+                        "<td>"+"<button id='addUsers' class='btn btn-primary btn-xs' " +
+                            "onclick='addUsers(\""+
+                                item.productID+
+                                "\")'>View</button>"+ "</td>" +
+                        "</tr>";
+                    $('#Table').append(rows);
+                }); //End of foreach Loop
+                console.log(data);
+            }, //End of AJAX Success function
+
+            failure: function (data) {
+                alert(data.responseText);
+            }, //End of AJAX failure function
+            error: function (data) {
+                alert(data.responseText);
+            } //End of AJAX error function
+
+        });
+    });
+</script>

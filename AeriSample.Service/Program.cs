@@ -1,0 +1,12 @@
+﻿using System;
+
+namespace AeriSample.Service
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
