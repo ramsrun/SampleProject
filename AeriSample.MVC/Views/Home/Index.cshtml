@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Product Information";
 }
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -9,10 +9,10 @@
     <div class="panel-body">
         <table class="table table-bordered" id="Table">
             <tr>
-                <th>ProductID</th>
-                <th>ProductNumber</th>
+                <th>Product ID</th>
+                <th>Product Number</th>
                 <th>Name</th>
-                <th>PriceList</th>
+                <th>Price List</th>
                 <th></th>
             </tr>
         </table>
@@ -35,32 +35,27 @@
                         "<td id='ProductID'>" + item.productID + "</td>" +
                         "<td id='ProductNumber'>" + item.productNumber + "</td>" +
                         "<td id='Name'>" + item.name + "</td>" +
-                        "<td id='PriceList'>" + item.priceList + "</td>" +
+                        "<td id='PriceList'>"+"$"+ item.priceList + "</td>" +
                         "<td>"+"<button id='addUsers' class='btn btn-primary btn-xs' " +
                             "onclick='ViewDetails(\""+
                                 item.productID+
                                 "\")'>View</button>"+ "</td>" +
                         "</tr>";
                     $('#Table').append(rows);
-                }); //End of foreach Loop
-                console.log(data);
-            }, //End of AJAX Success function
+                });
+            },
 
             failure: function (data) {
                 alert(data.responseText);
-            }, //End of AJAX failure function
+            }, 
             error: function (data) {
                 alert(data.responseText);
-            } //End of AJAX error function
+            } 
 
         });
     });
     function ViewDetails(productID) {
-        alert(productID);
-        var url = $(this).data("https://localhost:5001/Home/Privacy");
-        console.log(url);
-
-        window.open("https://localhost:5001/Home/Privacy/"+productID);
+        window.open("https://localhost:5001/Home/ProductDetails/"+productID);
     }
     
 </script>

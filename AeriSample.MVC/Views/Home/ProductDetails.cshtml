@@ -1,0 +1,131 @@
+﻿@{
+    ViewData["Title"] = "Product Details";
+    ViewData["History"] = "Product Cost History";
+
+}
+<h1>@ViewData["Title"]</h1>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<div class="panel panel-primary">
+
+    <div class="panel-body">
+        <table class="table table-bordered" id="Table">
+            <tr>
+                <th>Field</th>
+                <th>Value</th>
+            </tr>
+        </table>
+    </div>
+</div>
+<h1>@ViewData["History"]</h1>
+<div class="panel panel-primary">
+
+    <div class="panel-body">
+        <table class="table table-bordered" id="TableCost">
+            <tr>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Standard Cost</th>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        GetData();
+
+    });
+    function ViewDetails(productID) {
+        alert(productID);
+        var url = $(this).data("https://localhost:5001/Home/ProductDetails");
+        console.log(url);
+
+        window.open("https://localhost:5001/Home/Privacy/");
+    }
+    function GetData() {
+var url = window.location.pathname;
+        var id = url.substring(url.lastIndexOf('/') + 1);
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:5051/api/Product/" + id,
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (item) {
+                //alert(JSON.stringify(data));
+                $("#DIV").html('');
+                var DIV = '';
+                         var rows = "<tr>" +
+                        "<td id='ProductIDValue'>Product ID</td>" +
+                        "<td id='ProductID'>" + item.productID + "</td>" +
+                             "</tr>" +
+                             "<tr>" +
+                        "<td id='NameValue'> Name </td>" +
+                        "<td id='Name'>" + item.name + "</td>" +
+                             "</tr>" +
+                             "<tr>" +
+                        "<td id='ColorValue'> Color </td>" +
+                        "<td id='Color'>" + item.color + "</td>" +
+                             "</tr>" +
+                             "<tr>" +
+                        "<td id='SizeValue'> Size </td>" +
+                        "<td id='Size'>" + item.size + "</td>" +
+                        "</tr>";
+                    $('#Table').append(rows);
+
+            },
+
+            failure: function (data) {
+                alert(data.responseText);
+            },
+            error: function (data) {
+                alert(data.responseText);
+            }
+
+        });
+        $.ajax({
+
+            type: "GET",
+            url: "http://localhost:5051/api/ProductCostHistory?id="+ id,
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (data) {
+                //alert(JSON.stringify(data));
+                if (data.length > 0) {
+                    $("#DIV").html('');
+                    var DIV = '';
+                    $.each(data, function (i, item) {
+
+                        var rows = "<tr>" +
+                            "<td id='StartDate'>" + item.startDate + "</td>" +
+                            "<td id='EndDate'>" + item.endDate + "</td>" +
+                            "<td id='StandardCost'>"+"$" + item.standardCost + "</td>" +
+
+                            "</tr>";
+                        $('#TableCost').append(rows);
+                    }); //End of foreach Loop
+                }
+                else {
+
+                    $("#DIV").html('');
+                var DIV = '';
+                         var rows = "<tr>" +
+                        "<td colspan='3' id='ProductIDValue'>No product cost available</td>" +
+
+                        "</tr>";
+                    $('#TableCost').append(rows);
+
+                }
+            },
+
+            failure: function (data) {
+                alert(data.responseText);
+            },
+            error: function (data) {
+                alert(data.responseText);
+            }
+
+        });
+
+    }
+</script>

@@ -51,7 +51,6 @@ F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\Ae
 F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\AeriSample.MVC.TagHelpers.output.cache
 F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\AeriSample.MVC.RazorCoreGenerate.cache
 F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
-F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
 F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
 F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -64,3 +63,5 @@ F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\Ae
 F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\AeriSample.MVC.dll
 F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\AeriSample.MVC.pdb
 F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\AeriSample.MVC.csproj.CopyComplete
+F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+F:\AeriTech\Project Development\Sample\AeriSample.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Home\ProductDetails.cshtml.g.cs
