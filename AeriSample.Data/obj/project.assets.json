@@ -3474,11 +3474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample.Data\\AeriSample.Data.csproj",
+      "projectUniqueName": "F:\\AeriTech\\Project Development\\Sample\\AeriSample.Data\\AeriSample.Data.csproj",
       "projectName": "AeriSample.Data",
-      "projectPath": "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample.Data\\AeriSample.Data.csproj",
+      "projectPath": "F:\\AeriTech\\Project Development\\Sample\\AeriSample.Data\\AeriSample.Data.csproj",
       "packagesPath": "C:\\Users\\RamsharanShrestha\\.nuget\\packages\\",
-      "outputPath": "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample.Data\\obj\\",
+      "outputPath": "F:\\AeriTech\\Project Development\\Sample\\AeriSample.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

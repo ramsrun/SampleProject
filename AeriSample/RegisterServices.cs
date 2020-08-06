@@ -13,7 +13,7 @@ namespace AeriSample
         public static void RegisterAppServices(this IServiceCollection services)
         {
             services.AddTransient<ProductService>();
-            services.AddTransient<ProductService>();
+            services.AddTransient<ProductCostHistoryService>();
 
         }
     }

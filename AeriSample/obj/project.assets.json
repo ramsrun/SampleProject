@@ -13504,11 +13504,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample\\AeriSample.Api.csproj",
+      "projectUniqueName": "F:\\AeriTech\\Project Development\\Sample\\AeriSample\\AeriSample.Api.csproj",
       "projectName": "AeriSample.Api",
-      "projectPath": "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample\\AeriSample.Api.csproj",
+      "projectPath": "F:\\AeriTech\\Project Development\\Sample\\AeriSample\\AeriSample.Api.csproj",
       "packagesPath": "C:\\Users\\RamsharanShrestha\\.nuget\\packages\\",
-      "outputPath": "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample\\obj\\",
+      "outputPath": "F:\\AeriTech\\Project Development\\Sample\\AeriSample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -13530,11 +13530,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample.Data\\AeriSample.Data.csproj": {
-              "projectPath": "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample.Data\\AeriSample.Data.csproj"
+            "F:\\AeriTech\\Project Development\\Sample\\AeriSample.Data\\AeriSample.Data.csproj": {
+              "projectPath": "F:\\AeriTech\\Project Development\\Sample\\AeriSample.Data\\AeriSample.Data.csproj"
             },
-            "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample.Service\\AeriSample.Service.csproj": {
-              "projectPath": "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample.Service\\AeriSample.Service.csproj"
+            "F:\\AeriTech\\Project Development\\Sample\\AeriSample.Service\\AeriSample.Service.csproj": {
+              "projectPath": "F:\\AeriTech\\Project Development\\Sample\\AeriSample.Service\\AeriSample.Service.csproj"
             }
           }
         }

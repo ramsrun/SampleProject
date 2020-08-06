@@ -2,17 +2,10 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
-
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 
 <div class="panel panel-primary">
-    <div class="panel-heading">
-        Test Data from API
-    </div>   <!--en dof panel-heading -->
+  
     <div class="panel-body">
         <table class="table table-bordered" id="Table">
             <tr>
@@ -27,6 +20,7 @@
 </div>
 <script>
     $(document).ready(function () {
+        
         $.ajax({
             type: "GET",
             url: "http://localhost:5051/api/Product",
@@ -43,7 +37,7 @@
                         "<td id='Name'>" + item.name + "</td>" +
                         "<td id='PriceList'>" + item.priceList + "</td>" +
                         "<td>"+"<button id='addUsers' class='btn btn-primary btn-xs' " +
-                            "onclick='addUsers(\""+
+                            "onclick='ViewDetails(\""+
                                 item.productID+
                                 "\")'>View</button>"+ "</td>" +
                         "</tr>";
@@ -61,4 +55,12 @@
 
         });
     });
+    function ViewDetails(productID) {
+        alert(productID);
+        var url = $(this).data("https://localhost:5001/Home/Privacy");
+        console.log(url);
+
+        window.open("https://localhost:5001/Home/Privacy/"+productID);
+    }
+    
 </script>

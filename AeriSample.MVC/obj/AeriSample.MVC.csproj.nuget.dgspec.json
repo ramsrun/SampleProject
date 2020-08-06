@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample.MVC\\AeriSample.MVC.csproj": {}
+    "F:\\AeriTech\\Project Development\\Sample\\AeriSample.MVC\\AeriSample.MVC.csproj": {}
   },
   "projects": {
-    "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample.MVC\\AeriSample.MVC.csproj": {
+    "F:\\AeriTech\\Project Development\\Sample\\AeriSample.MVC\\AeriSample.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample.MVC\\AeriSample.MVC.csproj",
+        "projectUniqueName": "F:\\AeriTech\\Project Development\\Sample\\AeriSample.MVC\\AeriSample.MVC.csproj",
         "projectName": "AeriSample.MVC",
-        "projectPath": "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample.MVC\\AeriSample.MVC.csproj",
+        "projectPath": "F:\\AeriTech\\Project Development\\Sample\\AeriSample.MVC\\AeriSample.MVC.csproj",
         "packagesPath": "C:\\Users\\RamsharanShrestha\\.nuget\\packages\\",
-        "outputPath": "F:\\AeriTech\\Project Development\\AeriSample\\AeriSample.MVC\\obj\\",
+        "outputPath": "F:\\AeriTech\\Project Development\\Sample\\AeriSample.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

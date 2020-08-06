@@ -8,8 +8,8 @@ namespace AeriSample.Data.Entity
     {
         public int ProductID { get; set; }
         public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
-        public  decimal StandardCost { get; set; }
+        public DateTime? EndDate { get; set; }
+        public  decimal? StandardCost { get; set; }
 
     }
 }

@@ -11,3 +11,16 @@ F:\AeriTech\Project Development\AeriSample\AeriSample.Service\obj\Debug\netcorea
 F:\AeriTech\Project Development\AeriSample\AeriSample.Service\obj\Debug\netcoreapp2.2\AeriSample.Service.csproj.CopyComplete
 F:\AeriTech\Project Development\AeriSample\AeriSample.Service\obj\Debug\netcoreapp2.2\AeriSample.Service.dll
 F:\AeriTech\Project Development\AeriSample\AeriSample.Service\obj\Debug\netcoreapp2.2\AeriSample.Service.pdb
+F:\AeriTech\Project Development\Sample\AeriSample.Service\bin\Debug\netcoreapp2.2\AeriSample.Service.deps.json
+F:\AeriTech\Project Development\Sample\AeriSample.Service\bin\Debug\netcoreapp2.2\AeriSample.Service.runtimeconfig.json
+F:\AeriTech\Project Development\Sample\AeriSample.Service\bin\Debug\netcoreapp2.2\AeriSample.Service.runtimeconfig.dev.json
+F:\AeriTech\Project Development\Sample\AeriSample.Service\bin\Debug\netcoreapp2.2\AeriSample.Service.dll
+F:\AeriTech\Project Development\Sample\AeriSample.Service\bin\Debug\netcoreapp2.2\AeriSample.Service.pdb
+F:\AeriTech\Project Development\Sample\AeriSample.Service\bin\Debug\netcoreapp2.2\AeriSample.Data.dll
+F:\AeriTech\Project Development\Sample\AeriSample.Service\bin\Debug\netcoreapp2.2\AeriSample.Data.pdb
+F:\AeriTech\Project Development\Sample\AeriSample.Service\obj\Debug\netcoreapp2.2\AeriSample.Service.csprojAssemblyReference.cache
+F:\AeriTech\Project Development\Sample\AeriSample.Service\obj\Debug\netcoreapp2.2\AeriSample.Service.AssemblyInfoInputs.cache
+F:\AeriTech\Project Development\Sample\AeriSample.Service\obj\Debug\netcoreapp2.2\AeriSample.Service.AssemblyInfo.cs
+F:\AeriTech\Project Development\Sample\AeriSample.Service\obj\Debug\netcoreapp2.2\AeriSample.Service.csproj.CopyComplete
+F:\AeriTech\Project Development\Sample\AeriSample.Service\obj\Debug\netcoreapp2.2\AeriSample.Service.dll
+F:\AeriTech\Project Development\Sample\AeriSample.Service\obj\Debug\netcoreapp2.2\AeriSample.Service.pdb

@@ -24,7 +24,7 @@ namespace AeriSample.Service
         }
         public async Task<List<ProductCostHistoryDTO>> GetProductCostHistory(int id)
         {
-            return await _aeriContext.Products.Where(x => x.ProductID == id).ProjectTo<ProductCostHistoryDTO>(_mapper.ConfigurationProvider)
+            return await _aeriContext.ProductCostHistory.Where(x => x.ProductID == id).ProjectTo<ProductCostHistoryDTO>(_mapper.ConfigurationProvider)
                         .AsNoTracking().ToListAsync();
         }
     }
